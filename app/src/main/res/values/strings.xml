@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyDynamicFeatureApp</string>
+    <string name="title_ondemand">OnDemandModule</string>
+</resources>
