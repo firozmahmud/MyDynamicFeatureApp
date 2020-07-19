@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.ondemand">
+    package="com.firoz_mahmud.ondemand">
 
     <dist:module
         dist:instant="false"
@@ -14,7 +14,13 @@
     </dist:module>
 
     <application>
-        <activity android:name=".OnDemandMainActivity"></activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".OnDemandMainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
